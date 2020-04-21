@@ -1,0 +1,14 @@
+<skeleton 
+    selector="skeleton"
+    bgcolor="gay"
+    unit="px"
+    wx:if="{{showSkeleton}}"
+/>
+<view class="container skeleton">
+    <view class='skeleton-rects' style="min-width: 110px; min-height: 30px">
+        {{text}}
+    </view>
+    <view class="userinfo">
+        <image class="userinfo-avatar skeleton-circulars" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </view>
+</view>
